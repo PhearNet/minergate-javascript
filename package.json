@@ -1,0 +1,18 @@
+{
+  "name": "minergate_api",
+  "version": "1.0",
+  "description": "MinerGate_is_a_mining_pool_created_by_a_group_ofcryptocoin_enthusiasts_It_is_the_first_pool_whichprovides_service_for_merged_mining__This_means_thatwhile_mining_on_our_pool_you_can_mine_differentcoins_simultaniously_without_decrease_of_hashratefor_major_coin_If_you_are_interested_in_cooperationdrop_a_message_to_janikakoukiminergate_com__Currency_Name__Currency_Code__cc____________Bitcoin__btc__Litecoin__ltc__Bytecoin__bcn__Monero__xmr__FantomCoin__fcn__QuazarCoin__qcn__DigitalNote__xdn__MonetaVerde__mcn__Dashcoin__dsh__Aeon_coin__aeon__Infinium_8__inf8_",
+  "license": "Unlicense",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --recursive"
+  },
+  "dependencies": {
+    "superagent": "1.7.1"
+  },
+  "devDependencies": {
+    "mocha": "~2.3.4",
+    "sinon": "1.17.3",
+    "expect.js": "~0.3.1"
+  }
+}
